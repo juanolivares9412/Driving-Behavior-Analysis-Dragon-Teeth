@@ -7,7 +7,7 @@ Este repositorio contiene los scripts desarrollados para la evaluación de la ef
 ## 🚀 Funcionalidades
 - **Procesamiento Cinemático:** Conversión de salidas FCD (SUMO) a métricas de velocidad y aceleración.
 - **Análisis de Seguridad:** Identificación de cambios de carril preventivos en zonas críticas de 300 metros.
-- **Automatización de Datos:** Consolidación de resultados de múltiples participantes (n=17) en matrices estadísticas.
+- **Automatización de Datos:** Consolidación de resultados de múltiples participantes (n=31) en matrices estadísticas.
 - **Visualización:** Generación de mapas de calor de trayectoria y boxplots de factores humanos.
 
 ## 🛠️ Requisitos
