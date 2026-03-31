@@ -4,7 +4,7 @@ Conjunto de herramientas en Python para el procesamiento de datos cinemáticos y
 
 Este repositorio contiene los scripts desarrollados para la evaluación de la efectividad de la señalización horizontal (Dientes de Dragón y Rayado Logarítmico) mediante simulación de conducción.
 
-## 🚀 Funcionalidades
+##  Funcionalidades
 - **Procesamiento Cinemático:** Conversión de salidas FCD (SUMO) a métricas de velocidad y aceleración.
 - **Análisis de Seguridad:** Identificación de cambios de carril preventivos en zonas críticas de 300 metros.
 - **Automatización de Datos:** Consolidación de resultados de múltiples participantes (n=31) en matrices estadísticas.
@@ -12,11 +12,11 @@ Este repositorio contiene los scripts desarrollados para la evaluación de la ef
 
 ---
 
-## 🛠️ Scripts de Procesamiento (`scripts_procesamiento_dientes_dragon.zip`)
+##  Scripts de Procesamiento (`scripts_procesamiento_dientes_dragon.zip`)
 
 Esta carpeta contiene el ecosistema de herramientas en **Python** diseñadas para el procesamiento, análisis y visualización de los datos obtenidos en el simulador.
 
-### 📋 Descripción de Módulos
+###  Descripción de Módulos
 
 | # | Archivo | Función Principal |
 | :--- | :--- | :--- |
@@ -30,7 +30,7 @@ Esta carpeta contiene el ecosistema de herramientas en **Python** diseñadas par
 
 ---
 
-### 🚀 Flujo de Trabajo Sugerido
+###  Flujo de Trabajo Sugerido
 
 1. **Procesamiento Base:** Ejecutar los scripts `01` y `03` para extraer la cinemática de los vehículos desde los archivos crudos de SUMO.
 2. **Consolidación:** Utilizar `02` y `04` para agrupar los resultados de todos los participantes en una sola base de datos de Excel.
@@ -40,6 +40,6 @@ Esta carpeta contiene el ecosistema de herramientas en **Python** diseñadas par
  |-**excel.zip** el comprimido contiene las hojas de excel utilizadas para el procesamiendo de gráficos. |
  |-**imagenes.zip** el comprimido contiene las gráficas generadas de los resultados de los participantes |
  |-**outputs.zip** contienen los resultados generados de la simulación SUMO de los participantes |
-## 🛠️ Requisitos
+##  Requisitos
 - Python 3.x
 - Librerías: `pandas`, `matplotlib`, `openpyxl`, `numpy`, `xml.etree.ElementTree`
